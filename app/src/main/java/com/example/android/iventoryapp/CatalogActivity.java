@@ -61,7 +61,7 @@ public class CatalogActivity extends AppCompatActivity {
 
         try{
 
-            display.setText("The Inventory Table has" + inventoryCursor.getCount() + "items.\n\n" );
+            display.setText("The Inventory Table has " + inventoryCursor.getCount() + " items.\n\n" );
             display.append(newInventoryEntery._ID + " " +
             newInventoryEntery.COLUMN_PRODUCT_NAME + " " +
             newInventoryEntery.COLUMN_PRODUCT_PRICE + " " +
@@ -85,11 +85,11 @@ public class CatalogActivity extends AppCompatActivity {
                 String currentSupplierName = inventoryCursor.getString(supplierNameColumIndex);
                 String currentSupplierPhoneNumber = inventoryCursor.getString(supplierPhoneNumberColumIndex);
 
-                display.append(("\n" + currentProductId + " | " +
-                currentProductName + " | " +
-                currentProductPrice + " | " +
-                currentQuantity + " | " +
-                currentSupplierName + " | " +
+                display.append(("\n Table:" + currentProductId + " - " +
+                currentProductName + " - " +
+                currentProductPrice + " - " +
+                currentQuantity + " - " +
+                currentSupplierName + " - " +
                 currentSupplierPhoneNumber ));
 
             }
