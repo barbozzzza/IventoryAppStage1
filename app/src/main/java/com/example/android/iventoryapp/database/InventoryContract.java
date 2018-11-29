@@ -20,9 +20,9 @@ public class InventoryContract {
 
         public final static String COLUMN_PRODUCT_QUANTITY = "quantity";
 
-        public final static String COLUMN_PRODUCT_SUPPLIER_NAME = "supplier";
+        public final static String COLUMN_PRODUCT_SUPPLIER_NAME = "supplier name";
 
-        public final static String COLUMN_PRODUCT_SUPPLIER_PHONENUMBER = "phonenumber";
+        public final static String COLUMN_PRODUCT_SUPPLIER_PHONENUMBER = "supplier phonenumber";
 
 
         }
